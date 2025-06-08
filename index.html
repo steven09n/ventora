@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ventora Services - Home</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <!-- Font Awesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <div class="container">
+      <div class="logo">
+        <h1>VENTORA SERVICES</h1>
+        <p>Administrative services for your needs</p>
+      </div>
+      <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+      <nav id="nav">
+        <a href="index.html">Home</a>
+        <a href="what-we-do.html">What We Do</a>
+        <a href="getintouch.html">Get in Touch</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-image-container">
+      <img src="12.jpg" alt="Virtual assistant managing digital interfaces and data" class="hero-background">
+      <div class="hero-overlay"></div>
+      <div class="container">
+        <div class="hero-content">
+          <h2>Your Virtual Office Solution</h2>
+          <p>Professional administrative support tailored to your business needs</p>
+          <a href="getintouch.html" class="btn">Get Started Today</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección de título centrado -->
+  <section class="container_section_title">
+    <h2 class="text-center mb-4 custom-title">Office Support That Adapts to You</h2>
+  </section>
+
+  <!-- Sección de cuadros -->
+  <section class="container_section" style="display: flex; justify-content: center;">
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-2 g-5" data-aos="zoom-in"
+      data-aos-duration="1000">
+      <div class="col" style="display: flex; justify-content: end;">
+        <div class="card h-100 card_index">
+          <div class="icon" style=" display: flex; justify-content: center;">
+            <i class="fas fa-user-clock fa-2x "></i>
+          </div>
+          <div class="card-body" style="text-align: center;">
+            <h5 class="card-title-index">Virtual Assistance</h5>
+            <p>We help run your office or act as your virtual assistant based on your specific needs.
+          </div>
+        </div>
+      </div>
+      <div class="col" style=" display: flex; justify-content: start;">
+        <div class="card h-100 card_index">
+          <div class="icon" style=" display: flex; justify-content: center;">
+            <i class="fas fa-chart-line fa-2x"></i>
+          </div>
+          <div class="card-body" style="text-align: center;">
+            <h5 class="card-title-index">Efficiency & Quality</h5>
+            <p class="">Our work quality stands out. Improve your clerical and office tasks with us.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col" style=" display: flex; justify-content: end;">
+        <div class="card h-100 card_index">
+          <div class="icon" style=" display: flex; justify-content: center ;">
+            <i class="fas fa-network-wired fa-2x"></i>
+          </div>
+          <div class="card-body" style="text-align: center;">
+            <h5 class="card-title-index">Remote Team</h5>
+            <p>We act as your remote staff with fixed rates, saving on payroll and operations costs.
+          </div>
+        </div>
+      </div>
+      <div class="col" style=" display: flex; justify-content: start;">
+        <div class="card h-100 card_index">
+          <div class="icon" style=" display: flex; justify-content: center;">
+            <i class="fas fa-dollar-sign fa-2x"></i>
+          </div>
+          <div class="card-body" style="text-align: center;">
+            <h5 class="card-title-index">Flexible Pricing</h5>
+            <p>Our fees adapt to your workload — regular work means lower costs. Negotiable rates.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    </div>
+
+
+
+
+    <!-- 
+
+    <div class="row gx-5 gy-5 justify-content-center">
+      <div class="col-12 col-sm-6 col-lg-3">
+        <div class="custom-box">
+          <i class="fas fa-user-clock fa-2x icon"></i>
+          <h5 class="custom-text">Virtual Assistance</h5>
+          <p class="custom-text">We help run your office or act as your virtual assistant based on your specific needs.
+          </p>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-3">
+        <div class="custom-box">
+          <i class="fas fa-chart-line fa-2x icon"></i>
+          <h5 class="custom-text">Efficiency & Quality</h5>
+          <p class="custom-text">Our work quality stands out. Improve your clerical and office tasks with us.</p>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-3">
+        <div class="custom-box">
+          <i class="fas fa-network-wired fa-2x icon"></i>
+          <h5 class="custom-text">Remote Team</h5>
+          <p class="custom-text">We act as your remote staff with fixed rates, saving on payroll and operations costs.
+          </p>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-3">
+        <div class="custom-box">
+          <i class="fas fa-dollar-sign fa-2x icon"></i>
+          <h5 class="custom-text">Flexible Pricing</h5>
+          <p class="custom-text">Our fees adapt to your workload — regular work means lower costs. Negotiable rates.</p>
+        </div>
+      </div>
+    </div> -->
+  </section>
+
+  <footer>
+    <p class="text-center py-3">&copy; 2025 Ventora Services. All rights reserved.</p>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById("nav").classList.toggle("active");
+    }
+  </script>
+  <script>
+    AOS.init();
+  </script>
+
+</body>
+
+</html>
